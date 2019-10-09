@@ -10,7 +10,7 @@ public class PingPongTest {
         PingPong testPingPong = new PingPong();
         ArrayList<Object> expectedOutput = new ArrayList<Object>();
         expectedOutput.add(1);
-        assertEquals(expectedOutput, testPingPong.runPingPong(2));
+        assertEquals(expectedOutput, testPingPong.runPingPong(1));
     }
 
     @Test
